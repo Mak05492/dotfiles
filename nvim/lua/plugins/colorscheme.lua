@@ -4,8 +4,8 @@ return {
     priority = 1000,
     config = function()
         require("vscode").setup({
-            transparent = true,
+            transparent = false,
         })
-        vim.cmd.colorscheme "vscode"
+        vim.cmd([[ colorscheme vscode ]])
     end,
 }

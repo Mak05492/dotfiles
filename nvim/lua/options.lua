@@ -19,12 +19,13 @@ vim.opt.mouse = ""
 vim.cmd([[set splitright]])
 
 vim.o.laststatus = 2
-vim.o.statusline = "%F %=Ln %l, Col %c [%p%%]"
 
 vim.o.guicursor = "n-v-c:block,i-ci-ve:ver25,r-cr:hor20,o:hor50,a:blinkwait700-blinkoff400-blinkon250-Cursor/lCursor,sm:block-blinkwait175-blinkoff150-blinkon175"
 
 
 vim.o.scrolloff = 12
+
+vim.o.cursorline = true
 
 vim.cmd([[
     set viewoptions-=options
